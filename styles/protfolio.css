@@ -169,7 +169,7 @@ main {
 }
 
 .skills-title {
-    color:#181818;
+    color: #181818;
     font-size: 20px;
     font-weight: 700;
     margin: 20px 0;
@@ -180,4 +180,59 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+/* Resume Section */
+.resume {
+    padding: 130px 0;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-item {
+    margin-top: 30px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.resume-item-title {
+    margin-bottom: 10px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    width: 510px;
+    margin: 20px 0 30px 0;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-item hr {
+    margin: 0 20px;
+    color: #D1D1D1;
+}
+
+.resume-btn {
+    display: flex;
+    margin: 70px auto 0;
 }
