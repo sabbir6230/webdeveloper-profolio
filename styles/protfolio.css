@@ -117,31 +117,19 @@ nav a {
 }
 
 /* main section */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 .about {
     background-color: #FFF8F3;
-    max-width: 1140px;
     margin: 100px auto;
-    padding: 130px 155px;
+    padding: 130px;
+    border-radius: 10px;
 
 }
-
-.about-column-container {
+ .about-container {
     display: flex;
-    text-align: center;
-    /* justify-content: space-between; */
-    column-gap: 50px;
-}
+ }
 
-.column-name, .column-info {
-    color: #757575;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 700;
-    line-height: 30px;
-}
-
-.column-name {
-    font-weight: 400;
-}
